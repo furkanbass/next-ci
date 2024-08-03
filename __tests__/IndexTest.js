@@ -10,7 +10,7 @@ describe('Home', () => {
   it('renders without crashing', () => {
     render(<Home />);
     expect(
-      screen.getByRole("heading", { name: /Create Next App/i }) 
+      screen.getByRole("heading", { name: "Create Next App" }) 
     ).toBeInTheDocument();
   });
 
